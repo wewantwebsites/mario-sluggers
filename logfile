@@ -1,0 +1,21 @@
+2024-03-10 14:33:06.565 EDT [9524] LOG:  starting PostgreSQL 16.0 (Homebrew) on aarch64-apple-darwin22.6.0, compiled by Apple clang version 14.0.3 (clang-1403.0.22.14.1), 64-bit
+2024-03-10 14:33:06.566 EDT [9524] LOG:  listening on IPv6 address "::1", port 5432
+2024-03-10 14:33:06.566 EDT [9524] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-03-10 14:33:06.567 EDT [9524] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-03-10 14:33:06.569 EDT [9527] LOG:  database system was shut down at 2024-03-10 14:32:44 EDT
+2024-03-10 14:33:06.571 EDT [9524] LOG:  database system is ready to accept connections
+2024-03-10 14:34:24.672 EDT [9524] LOG:  received fast shutdown request
+2024-03-10 14:34:24.672 EDT [9524] LOG:  aborting any active transactions
+2024-03-10 14:34:24.673 EDT [9524] LOG:  background worker "logical replication launcher" (PID 9530) exited with exit code 1
+2024-03-10 14:34:24.674 EDT [9525] LOG:  shutting down
+2024-03-10 14:34:24.674 EDT [9525] LOG:  checkpoint starting: shutdown immediate
+2024-03-10 14:34:24.676 EDT [9525] LOG:  checkpoint complete: wrote 43 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=11, longest=0.001 s, average=0.001 s; distance=246 kB, estimate=246 kB; lsn=0/1544360, redo lsn=0/1544360
+2024-03-10 14:34:24.678 EDT [9524] LOG:  database system is shut down
+2024-03-10 14:36:46.235 EDT [10023] LOG:  starting PostgreSQL 16.0 (Homebrew) on aarch64-apple-darwin22.6.0, compiled by Apple clang version 14.0.3 (clang-1403.0.22.14.1), 64-bit
+2024-03-10 14:36:46.237 EDT [10023] LOG:  listening on IPv6 address "::1", port 5432
+2024-03-10 14:36:46.237 EDT [10023] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-03-10 14:36:46.237 EDT [10023] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-03-10 14:36:46.239 EDT [10026] LOG:  database system was shut down at 2024-03-10 14:34:24 EDT
+2024-03-10 14:36:46.240 EDT [10023] LOG:  database system is ready to accept connections
+2024-03-10 14:41:46.227 EDT [10024] LOG:  checkpoint starting: time
+2024-03-10 14:41:49.268 EDT [10024] LOG:  checkpoint complete: wrote 33 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.034 s, sync=0.002 s, total=3.042 s; sync files=7, longest=0.001 s, average=0.001 s; distance=140 kB, estimate=140 kB; lsn=0/1567608, redo lsn=0/15675D0
