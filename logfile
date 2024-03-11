@@ -19,3 +19,185 @@
 2024-03-10 14:36:46.240 EDT [10023] LOG:  database system is ready to accept connections
 2024-03-10 14:41:46.227 EDT [10024] LOG:  checkpoint starting: time
 2024-03-10 14:41:49.268 EDT [10024] LOG:  checkpoint complete: wrote 33 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.034 s, sync=0.002 s, total=3.042 s; sync files=7, longest=0.001 s, average=0.001 s; distance=140 kB, estimate=140 kB; lsn=0/1567608, redo lsn=0/15675D0
+2024-03-10 22:35:58.638 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:35:58.732 EDT [30908] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:36:58.734 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:36:58.832 EDT [31253] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:37:58.833 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:37:58.931 EDT [31817] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:38:58.931 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:38:59.030 EDT [31839] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:39:59.030 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:39:59.130 EDT [31853] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:40:59.130 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:40:59.230 EDT [31865] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:41:59.230 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:41:59.328 EDT [31876] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:42:59.329 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:42:59.429 EDT [31946] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:43:59.429 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:43:59.528 EDT [32005] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:44:59.529 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:44:59.626 EDT [32076] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:45:59.627 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:45:59.727 EDT [32122] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:46:59.729 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:46:59.826 EDT [32273] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:47:59.826 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:47:59.924 EDT [32285] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:48:59.925 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:49:00.023 EDT [32304] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:50:00.024 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:50:00.122 EDT [32410] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:51:00.123 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:51:00.221 EDT [32527] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:52:00.222 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:52:00.318 EDT [32694] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:53:00.380 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:53:00.381 EDT [32815] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:54:00.383 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:54:00.483 EDT [33408] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:55:00.484 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:55:00.582 EDT [33532] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:56:00.583 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:56:00.681 EDT [33578] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:57:00.682 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:57:00.781 EDT [33715] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:58:00.783 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:58:00.880 EDT [33852] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 22:59:00.881 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 22:59:00.981 EDT [33899] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:00:00.983 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:00:01.081 EDT [33910] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:01:01.083 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:01:01.180 EDT [33928] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:02:01.181 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:02:01.280 EDT [33953] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:03:01.283 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:03:01.380 EDT [34028] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:04:01.382 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:04:01.479 EDT [34038] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:05:01.480 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:05:01.580 EDT [34049] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:06:01.583 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:06:01.680 EDT [34063] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:07:01.682 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:07:01.779 EDT [34076] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:08:01.780 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:08:01.880 EDT [34207] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:09:01.882 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:09:01.980 EDT [34221] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:10:01.982 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:10:02.079 EDT [34305] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:11:02.080 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:11:02.179 EDT [34324] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:12:02.180 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:12:02.279 EDT [34336] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:13:02.280 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:13:02.380 EDT [34380] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:14:02.384 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:14:02.386 EDT [34487] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:15:02.387 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:15:02.486 EDT [34577] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:16:02.487 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:16:02.586 EDT [34633] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:17:02.587 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:17:02.688 EDT [34720] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:18:02.691 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:18:02.788 EDT [34733] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:19:02.789 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:19:02.886 EDT [34746] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:20:02.887 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:20:02.988 EDT [34758] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:21:02.990 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:21:03.088 EDT [34833] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:22:03.091 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:22:03.189 EDT [34845] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:23:03.190 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:23:03.288 EDT [34860] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:24:03.291 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:24:03.389 EDT [34910] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:25:03.391 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:25:03.489 EDT [34922] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:26:03.491 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:26:03.589 EDT [34972] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:27:03.591 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:27:03.687 EDT [35024] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:28:03.688 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:28:03.789 EDT [35077] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:29:03.792 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:29:03.889 EDT [35113] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:30:03.892 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:30:03.988 EDT [35126] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:31:03.990 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:31:04.090 EDT [35150] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:32:04.090 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:32:04.188 EDT [35180] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:33:04.190 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:33:04.288 EDT [35206] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:34:04.290 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:34:04.389 EDT [35218] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:35:04.391 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:35:04.486 EDT [35229] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:36:04.488 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:36:04.589 EDT [35242] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:37:04.592 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:37:04.689 EDT [35289] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:38:04.691 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:38:04.788 EDT [35334] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:39:04.790 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:39:04.886 EDT [35368] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:40:04.888 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:40:04.988 EDT [35398] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:41:04.990 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:41:05.089 EDT [35419] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:42:05.091 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:42:05.187 EDT [35442] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:43:05.188 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:43:05.287 EDT [35454] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:44:05.288 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:44:05.388 EDT [35468] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:45:05.390 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:45:05.487 EDT [35513] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:46:05.487 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:46:05.589 EDT [35594] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:47:05.591 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:47:05.688 EDT [35613] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:48:05.667 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:48:05.766 EDT [35653] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:49:05.766 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:49:05.864 EDT [35666] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:50:05.866 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:50:05.964 EDT [35714] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:51:05.966 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:51:06.064 EDT [35782] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:52:06.067 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:52:06.164 EDT [35793] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:53:06.166 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:53:06.265 EDT [35805] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:54:06.267 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:54:06.363 EDT [35848] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:55:06.365 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:55:06.464 EDT [35918] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:56:06.466 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:56:06.564 EDT [35930] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:57:06.566 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:57:06.663 EDT [35975] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:58:06.665 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:58:06.761 EDT [36040] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-10 23:59:06.763 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-10 23:59:06.861 EDT [36052] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-11 00:00:06.862 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-11 00:00:06.961 EDT [36082] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-11 00:01:06.963 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-11 00:01:07.061 EDT [36110] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-11 00:02:07.063 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-11 00:02:07.161 EDT [36156] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-11 00:03:07.163 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-11 00:03:07.261 EDT [36200] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-11 00:04:07.263 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-11 00:04:07.359 EDT [36227] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-11 00:05:07.360 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-11 00:05:07.460 EDT [36253] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-11 00:06:07.461 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-11 00:06:07.559 EDT [36294] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted

@@ -1,0 +1,543 @@
+{
+  "characters": [
+    {
+      "name": "Mario",
+      "description": "As captain of the Mario Fireballs, Mario has a lot to live up to. But he's always ready to be a hero, so whether he's on the mound, heading for home you know he'll do whatever it takes to save the day.",
+      "ability": "Enlarge",
+      "team": "Mario Fireballs",
+      "stats": {
+        "pitch": 6,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Luigi",
+      "description": "With his trusty Tornado Ball and signature green cap, Luigi is the talented team captain of the Luigi Knights. He may not have as much confidence as his superstar brother Mario, but not everyone can be a hero, right?",
+      "ability": "Super Jump",
+      "team": "Luigi Knights",
+      "stats": {
+        "pitch": 6,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Princess Peach",
+      "description": "Mario may be Princess Peach's hero, but she won't need him to come to her rescue this time. An excellent pitcher, her Heart Ball leaves opposing batters dazed by her overwhelming charm.",
+      "ability": "Quick Throw",
+      "team": "Peach Monarchs",
+      "stats": {
+        "pitch": 9,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Princess Daisy",
+      "description": "Daisy brings her boundless enthusiasm to the baseball diamond, heading her own team and boasting her own stadium - the Daisy Cruiser. She's a defensive dynamo who also throws a mean changeup. She has been known to be a elite pitcher.",
+      "ability": "Super Dive",
+      "team": "Daisy Flowers",
+      "stats": {
+        "pitch": 7,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Yoshi",
+      "description": "While not the strongest pitcher, Yoshi's Egg Swing and Tongue Catch help round him out as a team captain. And it may sound strange, but he plays best when surrounded by a lineup of babies. He is the team captain that has numerously beat Super Sluggers youtuber Aaron Chiz.",
+      "ability": "Tongue Catch",
+      "team": "Yoshi Eggs",
+      "stats": {
+        "pitch": 4,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Birdo",
+      "description": "Always an eclectic character, Birdo boasts a surprisingly diverse group of friends. As a power hitter with great stamina, Birdo should do fine as a first-time captain, despite having trouble hitting curves. \"What does that mouth do?\"",
+      "ability": "Suction Catch",
+      "team": "Birdo Bows",
+      "stats": {
+        "pitch": 4,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Wario",
+      "description": "Wario throws a straight and powerful pitch, except when he unleashes his Phony Ball. But nobody likes a cheater, which is why so few of the other players like to be on the Wario Muscles.",
+      "ability": "Laser Beam",
+      "team": "Wario Muscles",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Waluigi",
+      "description": "Waluigi has been a low-down sneaky cheat since he first joined Wario in doubles tennis. Now he's continuing his conniving ways on the baseball field with tricky pitches and confusing hits.",
+      "ability": "Quick Throw",
+      "team": "Waluigi Spitballs",
+      "stats": {
+        "pitch": 8,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Donkey Kong",
+      "description": "As king of the jungle and captain of the DK Wilds, Donkey Kong packs some serious punch at the plate. Pairing him up with his pals Diddy Kong and Funky Kong in the outfield makes for some hairy defense.",
+      "ability": "Clamber",
+      "team": "DK Wilds",
+      "stats": {
+        "pitch": 6,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Diddy Kong",
+      "description": "Diddy Kong is a formidable pitcher with a mean changeup that he puts to good use as captain of the Diddy Monkeys. He likes to stack his team with fellow Kongs Dixie Kong and Tiny Kong any chance he gets.",
+      "ability": "Clamber",
+      "team": "Diddy Monkeys",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Bowser",
+      "description": "Bowser is a real baseball bruiser. As the king of the koopas and the captain of the Bowser Monsters, he packs superstrong hitting, killer pitching and a vicious outfield spin attack into one powerful package. He throws absolute gas but his pitching is not the best.",
+      "ability": "Spin Attack",
+      "team": "Bowser Monsters",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Bowser Jr.",
+      "description": "Bowser Jr's team may be called the rookies, but he is no rookie when it causes trouble for Mario. He and his dad Bowser are the root of all the trouble brewing in Baseball Kingdom.",
+      "ability": "Spin Attack",
+      "team": "Bowser Jr. Rookies",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Baby Mario",
+      "description": "Though he may be tiny and lacking in stamina like all other babies, Baby Mario is a swift runner. He can even use is Enlarge ability to give his base running a well-timed boost.",
+      "ability": "Enlarge",
+      "team": "Mario Fireballs",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Baby Luigi",
+      "description": "When he's not busy racing karts or being rescued by Yoshi, Baby Luigi likes to practice his Super Jump fielding technique. That and his speedy little legs make him a great fielder.",
+      "ability": "Super Jump",
+      "team": "Mario Fireballs",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Baby Peach",
+      "description": "Baby Peach is a slow-pitch master with a surprisingly mean changeup. She's tough to hit, even without a special Heart Ball. Even though she lacks stamina, her Quick Throw ability makes her a solid fielder.",
+      "ability": "Quick Throw",
+      "team": "Peach Monarchs",
+      "stats": {
+        "pitch": 8,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Baby Daisy",
+      "description": "Like other baby players, Baby Daisy makes up for lack of stamina with a solid off-speed pitch. Her changeup is hard to hit, and her signature fielding technique, the Super Dive, makes her a reliable fielder.",
+      "ability": "Super Dive",
+      "team": "Peach Monarchs",
+      "stats": {
+        "pitch": 6,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Baby Donkey Kong",
+      "description": "Baby DK has the most stamina of all the baby players. And while he isn't the strongest pitcher, he has long monkey limbs that are very useful in the outfield. Like many of his Kong buddies, he can cover some ground.",
+      "ability": "Clamber",
+      "team": "DK Wilds",
+      "stats": {
+        "pitch": 3,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Toad",
+      "description": "As Princess Peach's retainer, Toad has traveled far and wide, making friends everywhere. Maybe that is why so many players love to have him by their side. Or maybe it's just because he always has a good attitude.",
+      "ability": "Enlarge",
+      "team": "Peach Monarchs",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Toadette",
+      "description": "After first joining Princess Peach, Toad and the gang for kart racing, Toadette now brings her patented slow pitch to the baseball field. She may not be much of a power hitter, but she sure can fly when she's running the bases.",
+      "ability": "Enlarge",
+      "team": "Peach Monarchs",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Toadsworth",
+      "description": "Since the fateful trip to Isle Delfino, this utility player never leaves the side of Princess Peach. What he lacks in power at the plate, he makes up for with strong defense in the field.",
+      "ability": "Enlarge",
+      "team": "Peach Monarchs",
+      "stats": {
+        "pitch": 7,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Pianta",
+      "description": "This hefty resident of Isle Delfino swings away with a palm tree branch instead of a bat, but it must be dense wood, because Blue Pianta can hit it a mile when he charges all the way up!",
+      "ability": "Laser Beam",
+      "team": "Mario Fireballs",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Noki",
+      "description": "Another resident of Isle Delfino who befriends Mario on his ill-fated tropical vacation. Blue Noki isn't a power player on the baseball field, but can put a wicked curve on his changeup.",
+      "ability": "Ball Dash",
+      "team": "Mario Fireballs",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Dixie Kong",
+      "description": "Dixie Kong makes good use of her innate Kong sense in the outfield. She's one of the premier defensive players in the game, clambering her way to highlight-reel catches when she needs to.",
+      "ability": "Clamber",
+      "team": "DK Wilds",
+      "stats": {
+        "pitch": 3,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Funky Kong",
+      "description": "Funky Kong makes use of his long limbs in every aspect of the game. He has strong pitching skills and a great charge hit. His reach makes him an above average fielder, so his defense must be reckoned with.",
+      "ability": "Clamber",
+      "team": "DK Wilds",
+      "stats": {
+        "pitch": 4,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Tiny Kong",
+      "description": "Tiny Kong is the smallest of the Kongs and doesn't boats the power of her bigger friends. But she is by no means the weakest player in the game. Great team chemistry with the Kongs makes her a valuable player.",
+      "ability": "Clamber",
+      "team": "DK Wilds",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "King K. Rool",
+      "description": "King K. Rool and his Kremling Krew have been after the Kongs for years. Now he's bringing his might to the baseball diamond with a powerful swing and one of the meaner charge pitches around. You should not throw pitches down the pipe. His homeruns are almost as monstrous as he is. You should be aware of your star gauge and use it on him or pitch outside to him.",
+      "ability": "Laser Beam",
+      "team": "DK Wilds",
+      "stats": {
+        "pitch": 6,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Kritter",
+      "description": "Despite his large, imposing figure, Kritter doesn't have the same dominant power as his boss, King K. Rool, but he is an above-average hitter and has a reliable fastball when he's on the mound. However don't count out his hitting he has some power.",
+      "ability": "Keeper Catch",
+      "team": "DK Wilds",
+      "stats": {
+        "pitch": 4,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Goomba",
+      "description": "The very first of Bowser's minions to cross Mario's path, Goomba is the meanist bunter in the baseball kingdom, and a fierce pitcher to boot. It takes near perfect timing to steal a hit off of him.",
+      "ability": "Ball Dash",
+      "team": "Wario Muscles",
+      "stats": {
+        "pitch": 6,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Paragoomba",
+      "description": "",
+      "ability": "Super Jump",
+      "team": "Wario Muscles",
+      "stats": {
+        "pitch": 6,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Koopa Troopa",
+      "description": "",
+      "ability": "Spin Attack",
+      "team": "Wario Muscles",
+      "stats": {
+        "pitch": 3,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Koopa Paratroopa",
+      "description": "",
+      "ability": "Super Jump",
+      "team": "Wario Muscles",
+      "stats": {
+        "pitch": 3,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Magikoopa",
+      "description": "",
+      "ability": "Magical Catch",
+      "team": "Bowser Monsters",
+      "stats": {
+        "pitch": 8,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Hammer Bro.",
+      "description": "No surprise that this fearsome player has a strong arm. As one of Bowser's go-to guys, Hammer Bro. unleashes his patented hammer throw on the field. And he'll make pay at the plate with his powerful charge hit.",
+      "ability": "Hammer Throw",
+      "team": "Bowser Monsters",
+      "stats": {
+        "pitch": 4,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Dry Bones",
+      "description": "",
+      "ability": "Scatter Dive",
+      "team": "Bowser Monsters",
+      "stats": {
+        "pitch": 4,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Boo",
+      "description": "Normally the shiest of spirits, Boo isn't afraid to show off the strongest changeup in the game when he takes the mound. His teleportation ability comes in handy when baserunning - or basefloating in his case.",
+      "ability": "Teleport",
+      "team": "Wario Muscles",
+      "stats": {
+        "pitch": 9,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "King Boo",
+      "description": "Haunting Luigi since he first set foot in the mansion, King Boo doesn't have the stamina for late innings, but he's a talented player nonetheless. As it is with many ghosts, he is not well-liked by other players.",
+      "ability": "Teleport",
+      "team": "Wario Muscles",
+      "stats": {
+        "pitch": 7,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Petey Piranha",
+      "description": "As one of the biggest players on the field, it comes as no shock that Petey Piranha has one of the top three charge shots in the game. He brings the heat on the mound as well, but has surprisingly low stamina. Petey has been known to hit homeruns for days off of Aaron Chiz. Petey is a threat you don't want to mess with so use your star pitches on him or walk him.",
+      "ability": "Piranha Catch",
+      "team": "Peach Monarchs",
+      "stats": {
+        "pitch": 4,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Wiggler",
+      "description": "",
+      "ability": "Angry Attack",
+      "team": "Yoshi Eggs",
+      "stats": {
+        "pitch": 3,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Shy Guy",
+      "description": "",
+      "ability": "Super Dive",
+      "team": "Yoshi Eggs",
+      "stats": {
+        "pitch": 4,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Monty Mole",
+      "description": "",
+      "ability": "Burrow",
+      "team": "Mario Fireballs",
+      "stats": {
+        "pitch": 4,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Blooper",
+      "description": "Blooper and Mario have already met on Isle Delfino. Now they meet again on the baseball diamond. Blooper's unique Ink Dive makes him an effective base runner. Don't be fooled by his changeup—it's actually his fastest pitch.",
+      "ability": "Ink Dive",
+      "team": "Mario Fireballs",
+      "stats": {
+        "pitch": 6,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Mii",
+      "description": "",
+      "ability": "",
+      "team": "",
+      "stats": {
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Red Yoshi",
+      "description": "This Yoshi is one of Yoshi's alternate colors. This Yoshi may not have good hitting, fielding, or pitching, but he has good speed.",
+      "ability": "Tongue Catch",
+      "team": "Yoshi Eggs",
+      "stats": {
+        "pitch": 3,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Red Pianta",
+      "description": "This Pianta is one of Pianta's alternate colors. This Pianta may have good hitting, but he has bad fielding, pitching, and speed.",
+      "ability": "Laser Beam",
+      "team": "Mario Fireballs",
+      "stats": {
+        "pitch": 4,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    },
+    {
+      "name": "Boomerang Bro.",
+      "description": "This character is one of Hammer Bro's alternate colors. Boomerang Bro. only has bad speed, but he has balanced stats.",
+      "ability": "Boomerang Throw",
+      "team": "Bowser Monsters",
+      "stats": {
+        "pitch": 5,
+        "bat": 7,
+        "field": 6,
+        "run": 7
+      }
+    }
+  ]
+}

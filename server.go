@@ -1,10 +1,13 @@
 package main
 
 import (
-    "sluggers/cmd/handlers"
-    "sluggers/cmd/storage"
-    "github.com/labstack/echo/v4"
-    "github.com/labstack/echo/v4/middleware"
+	"os"
+
+	"sluggers/cmd/handlers"
+	"sluggers/cmd/storage"
+
+	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
 )
 
 func main()  {
@@ -18,6 +21,14 @@ func main()  {
     }))
     e.GET("/", handlers.Home)
     // connect to the DB
-    storage.InitDB()
+    db := storage.InitDB()
+    defer db.Close()
+    
+    // check to see if the migrate flag has been passed to update the db
+    args := os.Args[1:]
+    if len(args) > 0 && os.Args[1] == "m" {
+        storage.Migrate()
+    }
+
     e.Logger.Fatal(e.Start(":1337"))
 }
