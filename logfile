@@ -201,3 +201,5 @@
 2024-03-11 00:05:07.460 EDT [36253] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
 2024-03-11 00:06:07.461 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
 2024-03-11 00:06:07.559 EDT [36294] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
+2024-03-11 00:07:07.564 EDT [10023] LOG:  could not open file "postmaster.pid": Operation not permitted; continuing anyway
+2024-03-11 00:07:07.565 EDT [36472] FATAL:  could not open file "global/pg_filenode.map": Operation not permitted
