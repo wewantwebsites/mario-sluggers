@@ -2,3 +2,5 @@
 logfile
 vendor/
 tmp/
+.env
+.env.*
