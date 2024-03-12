@@ -1,8 +1,8 @@
 # TODO List for this app
 
-- [ ] create a GET handler for characters
-- [ ] create a GET handler for ALL characters
-- [ ] deploy to render.com
+- [x] create a GET handler for characters
+- [x] create a GET handler for ALL characters
+- [ ] choose render, azure, google -- for cloud hosting of docker image
 - [ ] standup frontend
 
 - [ ] identify testing opportunities
