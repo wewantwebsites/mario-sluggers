@@ -2,6 +2,9 @@
 
 - [x] create a GET handler for characters
 - [x] create a GET handler for ALL characters
+- Test Packages:
+  - [ ] handlers
+  - [ ] db
 - [ ] choose render, azure, google -- for cloud hosting of docker image
 - [ ] standup frontend
 
