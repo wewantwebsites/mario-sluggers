@@ -2,6 +2,9 @@
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
 
 name: Go 
+description: |
+  Running ubuntu-latest, this action builds the artifact on 1.21.x, tests and 
+  then publishes the json results in an artifact to TestResults.json
 
 on:
   push:
