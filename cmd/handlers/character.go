@@ -41,8 +41,8 @@ func GetAllCharacters(c echo.Context) error {
 			&ch.Ability,
 			&ch.Team,
 			&ch.Stats.Bat,
+            &ch.Stats.Pitch,
 			&ch.Stats.Field,
-			&ch.Stats.Pitch,
 			&ch.Stats.Run); err != nil {
 			log.Fatal(err)
 		}
@@ -84,8 +84,8 @@ func GetCharacter(c echo.Context) error {
 			&ch.Ability,
 			&ch.Team,
 			&ch.Stats.Bat,
+            &ch.Stats.Pitch,
 			&ch.Stats.Field,
-			&ch.Stats.Pitch,
 			&ch.Stats.Run); err != nil {
 			log.Fatal(err)
 		}
