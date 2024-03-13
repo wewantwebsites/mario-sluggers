@@ -11,6 +11,7 @@ import (
 func main() {
 	// init the server
 	e := echo.New()
+
 	e.Use(middleware.RecoverWithConfig(middleware.RecoverConfig{
 		StackSize: 1 << 10, // 1 KB
 	}))
@@ -20,7 +21,7 @@ func main() {
 		AllowOrigins: []string{"http://localhost:3000"},
 		AllowHeaders: []string{echo.HeaderOrigin, echo.HeaderContentType, echo.HeaderAccept},
 	}))
-	e.GET("/", handlers.Home)
+	e.Static("/", "public")
 	e.GET("/:id", handlers.GetCharacter)
 	e.GET("/all", handlers.GetAllCharacters)
 	// connect to the DB

@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	characters = map[int]*models.Character{} // local cache, bc i'm a slut
+    characters = make(map[int]*models.Character)
 	lock       = sync.Mutex{}
 	hydrated   = false
 )
