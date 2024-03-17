@@ -12,11 +12,19 @@ import (
 )
 
 var (
-    characters = make(map[int]*models.Character)
+	characters = make(map[int]*models.Character)
 	lock       = sync.Mutex{}
 	hydrated   = false
 )
 
+// GetAllCharacters godoc
+// @Summary     Get all mario sluggers characters
+// @Description get all characters
+// @Tags        Characters
+// @Accept	    json
+// @Produce     json
+// @Success     200 {array}     models.Character
+// @Router      /all [get]
 func GetAllCharacters(c echo.Context) error {
 	lock.Lock()
 	defer lock.Unlock()
@@ -28,7 +36,7 @@ func GetAllCharacters(c echo.Context) error {
 	db := storage.GetDB()
 	rows, err := db.Query("SELECT characters.ID, Name, Description, Ability, Team, Bat, Pitch, Field, Run FROM characters INNER JOIN stats ON characters.ID = stats.CharacterID")
 	if err != nil {
-		log.Fatal(err)
+		c.Logger().Error(err)
 	}
 	defer rows.Close()
 
@@ -41,8 +49,8 @@ func GetAllCharacters(c echo.Context) error {
 			&ch.Ability,
 			&ch.Team,
 			&ch.Stats.Bat,
-            &ch.Stats.Pitch,
 			&ch.Stats.Field,
+			&ch.Stats.Pitch,
 			&ch.Stats.Run); err != nil {
 			log.Fatal(err)
 		}
@@ -56,6 +64,13 @@ func GetAllCharacters(c echo.Context) error {
 	return c.JSON(http.StatusOK, characters)
 }
 
+// GetCharacter godoc
+// @Summary     Get mario sluggers characters by their id
+// @Description Returns a Mario Sluggers character or an error
+// @Tags       	Characters
+// @Produce     json
+// @Success     200 	{object}   models.Character
+// @Router      /:id		[get]
 func GetCharacter(c echo.Context) error {
 	lock.Lock()
 	defer lock.Unlock()
@@ -72,19 +87,19 @@ func GetCharacter(c echo.Context) error {
 	rows, err := db.Query(
 		"SELECT Name, Description, Ability, Team, Bat, Pitch, Field, Run FROM characters INNER JOIN stats ON characters.ID = stats.CharacterID WHERE characters.ID = ?", id)
 	if err != nil {
-		log.Fatal(err)
+		c.Logger().Error(err)
 	}
 	defer rows.Close()
 
-	for rows.Next() { // highlander
-		var ch = models.Character{ID: id} // we got the record using this id
+	var ch = models.Character{ID: id} // we got the record using this id
+	for rows.Next() {                 // highlander
 		if err := rows.Scan(
 			&ch.Name,
 			&ch.Description,
 			&ch.Ability,
 			&ch.Team,
 			&ch.Stats.Bat,
-            &ch.Stats.Pitch,
+			&ch.Stats.Pitch,
 			&ch.Stats.Field,
 			&ch.Stats.Run); err != nil {
 			log.Fatal(err)
@@ -94,12 +109,10 @@ func GetCharacter(c echo.Context) error {
 			characters[id] = &ch
 		}
 	}
-
-	res := characters[id]
-	status := http.StatusOK
-	if res == nil {
+	var status = http.StatusOK
+	if ch.Name == "" {
 		status = http.StatusNotFound
 	}
 
-	return c.JSON(status, res)
+	return c.JSON(status, &ch)
 }

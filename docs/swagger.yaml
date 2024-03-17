@@ -1,0 +1,61 @@
+definitions:
+  models.Character:
+    properties:
+      ability:
+        type: string
+      description:
+        type: string
+      id:
+        type: integer
+      name:
+        type: string
+      stats:
+        $ref: '#/definitions/models.Stats'
+      team:
+        type: string
+    type: object
+  models.Stats:
+    properties:
+      bat:
+        type: integer
+      field:
+        type: integer
+      pitch:
+        type: integer
+      run:
+        type: integer
+    type: object
+info:
+  contact: {}
+paths:
+  /:id:
+    get:
+      description: Returns a Mario Sluggers character or an error
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Character'
+      summary: Get mario sluggers characters by their id
+      tags:
+      - Characters
+  /all:
+    get:
+      consumes:
+      - application/json
+      description: get all characters
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/models.Character'
+            type: array
+      summary: Get all mario sluggers characters
+      tags:
+      - Characters
+swagger: "2.0"
